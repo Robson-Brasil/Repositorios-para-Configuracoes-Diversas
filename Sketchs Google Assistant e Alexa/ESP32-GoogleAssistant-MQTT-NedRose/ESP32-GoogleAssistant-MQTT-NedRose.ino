@@ -75,6 +75,7 @@ void reconnect() {
       client.subscribe(sub2);
       client.subscribe(sub3);
       client.subscribe(sub4);
+      client.subscribe(sub5);
     } 
   else {
       Serial.print("failed, rc=");
